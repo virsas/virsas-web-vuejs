@@ -2,8 +2,8 @@ export default {
   global: {},
   footer: {
     cookie_header: 'Cookies',
-    cookie_text: 'Tato stránka používá soubory cookie, aby vám poskytla co nejlepší zážitek z prohlížení. Používáním této stránky souhlasíte s našimi soubory cookie, jak je vysvětleno v našich Zásadách ochrany osobních údajů. Přečtěte si prosím naše Zásady ochrany osobních údajů pro více informací o tom, jak používáme soubory cookies.',
-    cookie_policy: 'Zásady ochrany osobních údajů',
+    cookie_text: 'Tato stránka používá soubory cookie, aby vám poskytla co nejlepší zážitek z prohlížení. Používáním této stránky souhlasíte s našimi soubory cookie, jak je vysvětleno v našich Zásadách používání souborů cookie. Přečtěte si prosím naše Zásady používání souborů cookie pro více informací o tom, jak používáme soubory cookies.',
+    cookie_policy: 'Zásady používání souborů cookie',
     cookie_accept: 'Přijmout',
     cookie_settings: 'Nastavení souborů cookie',
     cookie_privacy_header: 'Centrum preferencí souborů cookie',

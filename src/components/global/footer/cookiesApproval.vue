@@ -53,7 +53,7 @@
               <div class="text-h6 q-pb-md">{{ $t('page.footer.cookie_header') }}</div>
               <div class="text-subtitle2">
                 {{ $t('page.footer.cookie_text') }}
-                <router-link :to="{ name: 'privacyShow', params: {lang: lang} }">{{ $t('page.footer.cookie_policy') }}</router-link>
+                <router-link :to="{ name: 'cookiesShow', params: {lang: lang} }">{{ $t('page.footer.cookie_policy') }}</router-link>
               </div>
             </q-card-section>
           </q-card>

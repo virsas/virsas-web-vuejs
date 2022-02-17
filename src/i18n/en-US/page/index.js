@@ -2,8 +2,8 @@ export default {
   global: {},
   footer: {
     cookie_header: 'Cookies',
-    cookie_text: 'This site uses cookies to provide you with the best browsing experience. By using this site, you agree to our cookies as explained in our Privacy Policy. Please read our Privacy Policy for more information on how we use cookies.',
-    cookie_policy: 'Privacy policy',
+    cookie_text: 'This site uses cookies to provide you with the best browsing experience. By using this site, you agree to our cookies as explained in our Cookie Policy. Please read our Cookie Policy for more information on how we use cookies.',
+    cookie_policy: 'Cookie Policy',
     cookie_accept: 'Accept',
     cookie_settings: 'Cookies settings',
     cookie_privacy_header: 'Cookies preference centre',
