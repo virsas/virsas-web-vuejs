@@ -1,6 +1,5 @@
 <template>
   <div class="row full-width justify-center">
-    <h1 class="text-h3 q-mb-md">{{ $t('page.about.about') }}</h1>
     <q-img class="serviceimg q-mb-md" basic alt="admin image" src="../../../assets/about.png" />
   </div>
 </template>

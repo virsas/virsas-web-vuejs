@@ -17,7 +17,7 @@ export default {
   home: {
     html_title: 'Virtual Systems and Services',
     html_description: '',
-    virsas: 'Virsas s.r.o.'
+    virsas_description: 'We are a small company trying to make a difference. We provide our services and expertise to those in pursuit of a better world. Stay tuned if you want to know more about our projects, products, and solutions. More info coming soon.'
   },
   about: {
     html_title: 'Virtual Systems and Services',

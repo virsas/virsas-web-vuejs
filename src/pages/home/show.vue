@@ -1,6 +1,8 @@
 <template>
-  <div class="row full-width justify-center">
-    <q-img basic alt="home image" src="../../assets/home.jpg" />
+  <div class="full-width text-center">
+    <h1 class="text-h3"><span class="text-primary">Vir</span>tual <span class="text-primary">S</span>ystems <span class="text-primary">A</span>nd <span class="text-primary">S</span>ervices</h1>
+    <p class="text-body1">{{ $t('page.home.virsas_description') }}</p>
+    <q-img class="full-width" alt="home image" src="../../assets/home.jpg" />
   </div>
 </template>
 

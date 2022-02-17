@@ -17,7 +17,7 @@ export default {
   home: {
     html_title: 'Virtuální Systémy a Služby',
     html_description: '',
-    virsas: 'Virsas s.r.o.'
+    virsas_description: 'Jsme malá společnost, která se snaží dělat velké věci. Poskytujeme naše služby a odborné znalosti těm, kteří usilují o lepší svět. Zůstaňte naladěni, pokud se chcete dozvědět více o našich projektech, produktech a řešeních. Více informací již brzy.'
   },
   about: {
     html_title: 'Virtuální Systémy a Služby',
