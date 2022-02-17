@@ -1,0 +1,22 @@
+@font-face {
+  font-family: opensans;
+  src: url(./OpenSans-Regular.ttf);
+}
+
+body { font-family: "opensans", "system-ui", "sans-serif";  margin: 0px auto; }
+h1, h2, h3, h4, h5, h6 { margin: 0px; }
+a { color: #05a6f7; text-decoration: none; }
+img { max-width: 100%; }
+
+.gradient { background-image: linear-gradient(to right, #263238, #05a6f7, #05a6f7, #05a6f7); }
+.logo { height: 30px; }
+
+.head, .body, .footer { width: 100%; max-width: 1440px; margin: 0px auto; }
+.body, .footer { padding: 10px; }
+.top_menu { height: 80px; }
+
+.screen-height {
+  min-height: 100vh;
+}
+  
+  
