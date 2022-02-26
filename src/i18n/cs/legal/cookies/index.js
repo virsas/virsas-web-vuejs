@@ -11,7 +11,7 @@ export default {
   cookies_usage_d: 'k analýze používání a trendů stránek a služeb',
   cookies_usage_e: 'ke sledování pohybu uživatelů po Stránkách a Službách',
   cookies_usage_f: 'ke shromažďování demografických údajů o uživatelích',
-  period: 'How long do we store your cookies?',
+  period: 'Jak dlouho uchováváme vaše cookies?',
   period_1: 'Vaše cookies uchováváme po dobu 12 měsíců a poté je smažeme.',
   management: 'Jak spravovat soubory cookie?',
   management_1: 'Soubory cookie můžete zakázat buď pomocí našeho nástroje pro správu souborů cookie, nebo je smažete prostřednictvím nastavení prohlížeče. Mějte však na paměti, že změna nastavení může změnit váš zážitek z prohlížení.',
