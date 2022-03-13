@@ -8,8 +8,8 @@ Virsas opensource website (Quasar + VueJS)
 
 ``` bash
 npm install -g @quasar/cli
-git clone git@github.com:virsas/virsasWeb.git
-cd virsasWeb
+git clone git@github.com:virsas/vuejs-app-web.git
+cd vuejs-app-web
 npm install
 quasar dev
 ```
