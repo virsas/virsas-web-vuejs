@@ -41,7 +41,8 @@
         <q-separator />
 
         <q-card-actions align="right">
-          <q-btn unelevated color="primary" :label="$t('page.footer.cookie_confirm')" @click="confirmPreferences()" />
+          <q-btn flat color="primary" :label="$t('page.footer.cookie_accept_selected')" @click="acceptSelectedCookies()" />
+          <q-btn unelevated color="primary" :label="$t('page.footer.cookie_accept_all')" @click="acceptAllCookies()" />
         </q-card-actions>
       </q-card>
     </q-dialog>
@@ -66,7 +67,7 @@
           </q-card>
           <q-card flat>
             <q-card-actions>
-              <q-btn unelevated color="primary" :label="$t('page.footer.cookie_accept')" @click="acceptCookies()" />
+              <q-btn unelevated color="primary" :label="$t('page.footer.cookie_accept_all')" @click="acceptAllCookies()" />
             </q-card-actions>
           </q-card>
       </q-toolbar>
@@ -75,24 +76,27 @@
 </template>
 
 <script>
+import { defineComponent } from 'vue'
 import language from 'src/functions/global/language'
 import cookies from '../../../functions/cookies/cookies'
 
-export default {
+export default defineComponent({
   name: 'components/global/cookiesApproval',
   setup () {
-    const { needAcceptCookies, acceptCookies, confirmPreferences, preferences, necessaryCookies, performanceCookies } = cookies()
+    const { needAcceptCookies, acceptAllCookies, acceptSelectedCookies, necessaryCookies, performanceCookies, preferences } = cookies()
     const { lang } = language()
+
+    console.log(performanceCookies.value)
 
     return {
       needAcceptCookies,
-      acceptCookies,
+      acceptAllCookies,
+      acceptSelectedCookies,
       necessaryCookies,
       performanceCookies,
       lang,
-      confirmPreferences,
       preferences
     }
   }
-}
+})
 </script>
